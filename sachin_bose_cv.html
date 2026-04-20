@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Sachin Bose Pulikkathara – Senior Data Engineer & Cloud Data Architect</title>
+  <meta name="description"
+    content="Senior Technical Architect and Cloud Data Engineer with 12+ years of experience in ETL, full-stack development, AWS, and enterprise applications." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet" />
+
+  <style>
+    /* ===== RESET & BASE ===== */
+    *,
+    *::before,
+    *::after {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    :root {
+      --accent: #1a4f7a;
+      --accent-light: #e8f0f7;
+      --text-primary: #1a1a1a;
+      --text-secondary: #444;
+      --text-muted: #666;
+      --border: #d0d7de;
+      --page-width: 210mm;
+      --page-padding: 16mm 18mm;
+      --section-gap: 14px;
+    }
+
+    html,
+    body {
+      font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+      font-size: 10.5pt;
+      color: var(--text-primary);
+      background: #f0f4f8;
+      line-height: 1.5;
+    }
+
+    /* ===== PAGE WRAPPER (screen only) ===== */
+    .page-wrapper {
+      max-width: var(--page-width);
+      margin: 24px auto;
+      background: #fff;
+      box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+      border-radius: 4px;
+      overflow: hidden;
+    }
+
+    /* ===== HEADER / NAME BLOCK ===== */
+    .cv-header {
+      background: var(--accent);
+      color: #fff;
+      padding: 24px 28px 20px;
+    }
+
+    .cv-header h1 {
+      font-size: 22pt;
+      font-weight: 700;
+      letter-spacing: 0.5px;
+      text-transform: uppercase;
+      margin-bottom: 4px;
+    }
+
+    .cv-header .headline {
+      font-size: 10pt;
+      font-weight: 500;
+      opacity: 0.9;
+      margin-bottom: 12px;
+      line-height: 1.4;
+    }
+
+    .contact-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 18px;
+      font-size: 9pt;
+      opacity: 0.92;
+    }
+
+    .contact-row span {
+      display: flex;
+      align-items: center;
+      gap: 5px;
+    }
+
+    .contact-row a {
+      color: #fff;
+      text-decoration: none;
+    }
+
+    /* ===== MAIN BODY ===== */
+    .cv-body {
+      padding: var(--page-padding);
+      padding-top: 18px;
+    }
+
+    /* ===== SECTION ===== */
+    .section {
+      margin-bottom: var(--section-gap);
+    }
+
+    .section-title {
+      font-size: 9.5pt;
+      font-weight: 700;
+      text-transform: uppercase;
+      letter-spacing: 1.2px;
+      color: var(--accent);
+      border-bottom: 2px solid var(--accent);
+      padding-bottom: 3px;
+      margin-bottom: 10px;
+    }
+
+    /* ===== SUMMARY ===== */
+    .summary-text {
+      color: var(--text-secondary);
+      line-height: 1.6;
+      font-size: 10pt;
+    }
+
+    /* ===== EXPERIENCE ===== */
+    .experience-item {
+      margin-bottom: 12px;
+    }
+
+    .exp-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      gap: 8px;
+      flex-wrap: wrap;
+    }
+
+
+
+    .job-title {
+      font-size: 10.5pt;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .company-name {
+      font-size: 10pt;
+      font-weight: 600;
+      color: var(--accent);
+    }
+
+    .job-location {
+      font-size: 9pt;
+      color: var(--text-muted);
+    }
+
+    .exp-date {
+      font-size: 9pt;
+      color: var(--text-muted);
+      white-space: nowrap;
+      text-align: right;
+      flex-shrink: 0;
+    }
+
+    .exp-bullets {
+      margin-top: 5px;
+      padding-left: 16px;
+    }
+
+    .exp-bullets li {
+      font-size: 9.8pt;
+      color: var(--text-secondary);
+      margin-bottom: 3px;
+      line-height: 1.55;
+    }
+
+    .company-block {
+      border-left: 3px solid var(--accent-light);
+      padding-left: 10px;
+      margin-bottom: 14px;
+    }
+
+    .company-label {
+      font-size: 10pt;
+      font-weight: 700;
+      color: var(--accent);
+      margin-bottom: 6px;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+    }
+
+    .company-total-duration {
+      font-size: 9pt;
+      color: var(--text-muted);
+      font-weight: 400;
+    }
+
+    .role-divider {
+      border: none;
+      border-top: 1px dashed var(--border);
+      margin: 8px 0;
+    }
+
+    /* ===== EDUCATION ===== */
+    .edu-item {
+      margin-bottom: 10px;
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-start;
+      flex-wrap: wrap;
+      gap: 4px;
+    }
+
+
+
+    .edu-institution {
+      font-size: 10pt;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .edu-degree {
+      font-size: 9.8pt;
+      color: var(--text-secondary);
+    }
+
+    .edu-date {
+      font-size: 9pt;
+      color: var(--text-muted);
+      white-space: nowrap;
+      text-align: right;
+    }
+
+    /* ===== SKILLS ===== */
+    .skills-grid {
+      display: grid;
+      grid-template-columns: auto 1fr;
+      gap: 6px 12px;
+      align-items: baseline;
+    }
+
+    .skill-category {
+      font-size: 9.5pt;
+      font-weight: 700;
+      color: var(--text-primary);
+      white-space: nowrap;
+    }
+
+    .skill-list {
+      font-size: 9.5pt;
+      color: var(--text-secondary);
+    }
+
+    /* ===== PROJECTS ===== */
+    .project-item {
+      margin-bottom: 8px;
+    }
+
+    .project-name {
+      font-size: 10pt;
+      font-weight: 700;
+      color: var(--text-primary);
+    }
+
+    .project-desc {
+      font-size: 9.8pt;
+      color: var(--text-secondary);
+    }
+
+    .project-tech {
+      font-size: 9pt;
+      color: var(--text-muted);
+      margin-top: 3px;
+    }
+
+    .project-tech strong {
+      color: var(--text-primary);
+      font-weight: 600;
+    }
+
+    .project-item {
+      margin-bottom: 10px;
+    }
+
+    /* ===== CERTIFICATIONS / AWARDS ===== */
+    .cert-item {
+      font-size: 9.8pt;
+      color: var(--text-secondary);
+      margin-bottom: 4px;
+      padding-left: 14px;
+      position: relative;
+    }
+
+    .cert-item::before {
+      content: "▸";
+      position: absolute;
+      left: 0;
+      color: var(--accent);
+    }
+
+    /* ===== LANGUAGES ===== */
+    .lang-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 6px 20px;
+    }
+
+    .lang-item {
+      font-size: 9.8pt;
+      color: var(--text-secondary);
+    }
+
+    .lang-item strong {
+      color: var(--text-primary);
+    }
+
+    /* ===== TWO-COLUMN BOTTOM ===== */
+    .two-col {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 0 24px;
+    }
+
+    /* ===== PRINT STYLES ===== */
+    @media print {
+
+      html,
+      body {
+        background: #fff !important;
+        font-size: 9pt !important;
+        line-height: 1.35 !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      .page-wrapper {
+        max-width: 100% !important;
+        width: 100% !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        box-shadow: none !important;
+        border-radius: 0 !important;
+      }
+
+      /* Header */
+      .cv-header {
+        padding: 10px 14mm 9px !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      .cv-header h1 {
+        font-size: 16pt !important;
+        margin-bottom: 2px !important;
+      }
+
+      .cv-header .headline {
+        font-size: 8.5pt !important;
+        margin-bottom: 7px !important;
+        line-height: 1.3 !important;
+      }
+
+      .contact-row {
+        font-size: 8pt !important;
+        gap: 3px 12px !important;
+      }
+
+      /* Body — padding creates ALL the page whitespace (since @page = 0) */
+      .cv-body {
+        padding: 8px 14mm 10px !important;
+      }
+
+      /* Sections — allow natural breaks, no forced avoid on large sections */
+      .section {
+        margin-bottom: 11px !important;
+      }
+
+      .section-title {
+        font-size: 8pt !important;
+        padding-bottom: 2px !important;
+        margin-bottom: 5px !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      /* Summary — tighter */
+      .summary-text {
+        font-size: 8.8pt !important;
+        line-height: 1.38 !important;
+        color: #333 !important;
+      }
+
+      .summary-text+.summary-text {
+        margin-top: 3px !important;
+      }
+
+      /* Company blocks — allow page breaks, no forced avoid (too large) */
+      .company-block {
+        padding-left: 8px !important;
+        margin-bottom: 7px !important;
+        -webkit-print-color-adjust: exact !important;
+        print-color-adjust: exact !important;
+      }
+
+      .company-label {
+        font-size: 8.5pt !important;
+        margin-bottom: 2px !important;
+      }
+
+      .company-total-duration {
+        font-size: 7.8pt !important;
+      }
+
+      /* Keep individual job entries together but allow company blocks to break */
+      .experience-item {
+        margin-bottom: 5px !important;
+        page-break-inside: avoid;
+      }
+
+      .job-title {
+        font-size: 9pt !important;
+      }
+
+      .job-location {
+        font-size: 8pt !important;
+      }
+
+      .exp-date {
+        font-size: 8pt !important;
+      }
+
+      .exp-bullets {
+        margin-top: 3px !important;
+        padding-left: 12px !important;
+        orphans: 2;
+        widows: 2;
+      }
+
+      .exp-bullets li {
+        font-size: 8.5pt !important;
+        margin-bottom: 1px !important;
+        line-height: 1.35 !important;
+      }
+
+      .role-divider {
+        margin: 4px 0 !important;
+      }
+
+      /* Skills */
+      .skills-grid {
+        gap: 3px 10px !important;
+      }
+
+      .skill-category {
+        font-size: 8.5pt !important;
+      }
+
+      .skill-list {
+        font-size: 8.5pt !important;
+      }
+
+      /* Two-col (Education + Languages) */
+      .two-col {
+        gap: 0 16px !important;
+      }
+
+      .edu-item {
+        margin-bottom: 5px !important;
+      }
+
+      .edu-institution {
+        font-size: 9pt !important;
+      }
+
+      .edu-degree {
+        font-size: 8.5pt !important;
+      }
+
+      .edu-date {
+        font-size: 8pt !important;
+      }
+
+      .lang-item {
+        font-size: 8.5pt !important;
+      }
+
+      /* Projects — keep each project together to avoid orphan tech lines */
+      .project-item {
+        margin-bottom: 7px !important;
+        page-break-inside: avoid;
+      }
+
+      .project-name {
+        font-size: 9pt !important;
+      }
+
+      .project-desc {
+        font-size: 8.5pt !important;
+        line-height: 1.35 !important;
+        orphans: 2;
+        widows: 2;
+      }
+
+      .project-tech {
+        font-size: 8pt !important;
+        page-break-before: avoid;
+      }
+
+      /* Awards — keep together */
+      .section[aria-label="Awards and Achievements"] {
+        page-break-inside: avoid;
+      }
+
+      .cert-item {
+        font-size: 8.5pt !important;
+        margin-bottom: 2px !important;
+      }
+
+      /* Links */
+      a {
+        text-decoration: none !important;
+        color: inherit !important;
+      }
+
+      .cv-header a {
+        color: #fff !important;
+      }
+    }
+
+    /* Top/bottom page margin gives page-2+ breathing room.
+       Left/right = 0 so the blue header stays full-width;
+       .cv-header and .cv-body handle their own side padding. */
+    @page {
+      size: A4;
+      margin: 10mm 0 8mm 0;
+    }
+  </style>
+</head>
+
+<body>
+
+  <div class="page-wrapper">
+
+    <!-- ===== HEADER ===== -->
+    <header class="cv-header">
+      <h1>Sachin Bose Pulikkathara</h1>
+      <p class="headline">Senior Data Engineer &amp; Cloud Data Architect &nbsp;|&nbsp; AWS · Python · Redshift ·
+        SageMaker · ETL / DWH · AI &amp; ML</p>
+      <div class="contact-row">
+        <span>&#9993;&nbsp;<a href="mailto:sachin.bose.p@gmail.com">sachin.bose.p@gmail.com</a></span>
+        <span>&#9990;&nbsp;<a href="tel:+817085104554">+81 70-8510-4554</a></span>
+        <span>&#128205;&nbsp;Koto City, Tokyo, Japan</span>
+        <span>&#128279;&nbsp;<a href="https://linkedin.com/in/sachin-bose-p"
+            target="_blank">linkedin.com/in/sachin-bose-p</a></span>
+        <span>&#128187;&nbsp;<a href="https://github.com/sachin-bose-p"
+            target="_blank">github.com/sachin-bose-p</a></span>
+      </div>
+    </header>
+
+    <!-- ===== BODY ===== -->
+    <main class="cv-body">
+
+      <!-- PROFESSIONAL SUMMARY -->
+      <section class="section" aria-label="Professional Summary">
+        <h2 class="section-title">Professional Summary</h2>
+        <p class="summary-text">
+          Senior Data Engineer and Cloud Data Architect with <strong>12+ years of experience</strong>, specialising in
+          <strong>Data Warehousing, ETL Pipeline Development, and AI-driven Analytics</strong> (Mar 2024 – Present).
+          Currently leading enterprise-scale data engineering at IBS Software (Tokyo) — architecting high-throughput
+          ETL pipelines with <strong>Python and AWS Glue</strong>, building dimensional data models in
+          <strong>Amazon Redshift</strong>, orchestrating event-driven workflows via <strong>AWS Lambda</strong>, and
+          delivering AI/ML solutions with <strong>AWS SageMaker and AWS Bedrock</strong> — including self-healing
+          pipeline systems and an AI-powered ETL code generation tool that converts business requirements into
+          production-ready pipelines. Actively seeking a <strong>Data Engineering or Data &amp; AI</strong> role to
+          apply deep expertise in cloud-native data platforms, intelligent pipeline automation, and ML-powered
+          analytics.
+        </p>
+
+      </section>
+
+      <!-- WORK EXPERIENCE -->
+      <section class="section" aria-label="Work Experience">
+        <h2 class="section-title">Work Experience</h2>
+
+        <!-- IBS Software -->
+        <div class="company-block">
+          <div class="company-label">
+            <span>IBS Software</span>
+            <span class="company-total-duration">Jun 2022 – Present &nbsp;·&nbsp; ~3 yrs 11 mos</span>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-left">
+                <div class="job-title">Senior Technical Architect</div>
+                <div class="job-location">Tokyo, Japan</div>
+              </div>
+              <div class="exp-date">Jul 2025 – Present</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Led the <strong>business intelligence and analytics phase</strong> of the Bluelake DWH — transforming
+                raw PSS data into actionable business models using <strong>AWS Bedrock</strong>, <strong>Amazon
+                  QuickSight</strong>, and <strong>Power BI</strong>.</li>
+              <li>Designed and implemented a <strong>self-healing pipeline system</strong> with automated error
+                detection, alerting, and auto-assignment workflows using <strong>AWS Lambda</strong> and Step Functions
+                — significantly improving platform stability.</li>
+              <li>Developed an <strong>AI-powered ETL code generation tool</strong> using <strong>AWS Bedrock</strong>
+                LLMs that converts business requirements directly into ETL pipeline code, accelerating delivery of new
+                data pipelines.</li>
+              <li>Defined and enforced data governance, quality, and lineage standards across <strong>4 cross-functional
+                  teams</strong>, ensuring consistent data reliability for <strong>200+ business stakeholders</strong>.
+              </li>
+            </ul>
+          </div>
+
+          <hr class="role-divider" />
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-left">
+                <div class="job-title">Technical Architect – Data &amp; Full-Stack</div>
+                <div class="job-location">Tokyo, Japan</div>
+              </div>
+              <div class="exp-date">Mar 2024 – Jun 2025</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Initiated and led <strong>Phase 1 of the Bluelake PSS Data Warehouse</strong> — designed the complete
+                data architecture and delivered the core ETL infrastructure using <strong>Python, AWS Glue, Amazon
+                  Redshift, and AWS Lambda</strong> within 12 months.</li>
+              <li>Built <strong>10+ dimensional (DM) and semantic (SDM) data models</strong> in Amazon Redshift,
+                processing <strong>5M+ PSS records daily</strong> with high reliability and zero data loss.</li>
+              <li>Integrated <strong>Amazon QuickSight</strong> and <strong>Power BI</strong> dashboards, replacing
+                manual reporting and enabling self-service analytics for airline operations.</li>
+            </ul>
+          </div>
+
+          <hr class="role-divider" />
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-left">
+                <div class="job-title">Lead Solutions Architect</div>
+                <div class="job-location">Kochi, Kerala, India</div>
+              </div>
+              <div class="exp-date">Jun 2022 – Mar 2024</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Led a development team of <strong>12+ engineers</strong>, managing sprint planning, backlog grooming,
+                and end-to-end delivery to ensure on-time, in-scope releases.</li>
+              <li>Partnered with product owners to drive a major <strong>legacy system modernisation</strong> —
+                migrating from <strong>VB</strong> to <strong>.NET Core</strong> and <strong>Angular</strong>, replacing
+                an ageing monolith with a modern, scalable architecture.</li>
+              <li>Defined software architecture patterns, coding standards, and technical documentation adopted across
+                all product teams, accelerating onboarding and reducing technical debt.</li>
+            </ul>
+          </div>
+        </div>
+
+        <!-- Datafloat Technologies -->
+        <div class="company-block">
+          <div class="company-label">
+            <span>Datafloat Technologies India Pvt Ltd</span>
+            <span class="company-total-duration">Apr 2012 – Jun 2022 &nbsp;·&nbsp; ~10 yrs 3 mos</span>
+          </div>
+
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-left">
+                <div class="job-title">Senior Software Development Engineer</div>
+                <div class="job-location">India</div>
+              </div>
+              <div class="exp-date">Apr 2016 – Jun 2022</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Designed and developed a <strong>TypeScript-based automated CRM module</strong> — a fully functional,
+                DB-driven system that dynamically generated complete CRM workflows from database definitions,
+                eliminating manual UI development for new modules.</li>
+              <li>Built <strong>cross-platform websites</strong> and enterprise web applications, ensuring consistent
+                behaviour and performance across browsers and devices.</li>
+              <li>Performed <strong>SQL query optimisation</strong>, including index tuning, stored procedure
+                refactoring, and query plan analysis to improve database performance.</li>
+              <li>Conducted <strong>server-side debugging, deployment support, and onsite client assistance</strong> —
+                ensuring system stability and rapid resolution of production issues.</li>
+              <li>Mentored junior team members on best practices for front-end development, code quality, and delivery
+                standards.</li>
+            </ul>
+          </div>
+          <hr class="role-divider" />
+          <div class="experience-item">
+            <div class="exp-header">
+              <div class="exp-left">
+                <div class="job-title">Database Software Engineer</div>
+                <div class="job-location">India</div>
+              </div>
+              <div class="exp-date">Apr 2012 – Mar 2016</div>
+            </div>
+            <ul class="exp-bullets">
+              <li>Specialized in MS SQL Server database design, engineering, and optimization using T-SQL and stored
+                procedures.</li>
+              <li>Developed and maintained complex database schemas, views, triggers, and performance-tuning strategies.
+              </li>
+            </ul>
+          </div>
+        </div>
+      </section>
+
+      <br>
+      <!-- SKILLS -->
+      <section class="section" aria-label="Technical Skills">
+        <h2 class="section-title">Technical Skills</h2>
+        <div class="skills-grid">
+          <span class="skill-category">Data Engineering</span>
+          <span class="skill-list">Python, PySpark, AWS Glue, Amazon Redshift, ETL Pipeline Design, AWS Lambda, AWS Step
+            Functions, AWS SageMaker, AWS Bedrock, Amazon QuickSight, Data Warehousing, Dimensional Modelling</span>
+
+          <span class="skill-category">Cloud Platforms</span>
+          <span class="skill-list">Amazon Web Services (AWS CloudFormation, AWS Bedrock), Microsoft Azure</span>
+
+          <span class="skill-category">Full-Stack Development</span>
+          <span class="skill-list">.NET Core, ASP.NET MVC, C#, Web API, Angular, React.js, Node.js, TypeScript,
+            JavaScript, Webpack</span>
+
+          <span class="skill-category">Databases</span>
+          <span class="skill-list">MS SQL Server, PostgreSQL, Amazon Redshift, Oracle Database, MySQL, T-SQL,
+            PL/SQL</span>
+
+          <span class="skill-category">BI &amp; Reporting</span>
+          <span class="skill-list">Power BI, Business Intelligence Dashboard Design</span>
+
+          <span class="skill-category">Tools &amp; Practices</span>
+          <span class="skill-list">Git, SVN, CI/CD Pipeline (GitHub Actions, Jenkins), Build Automation, Shell
+            Scripting, Agile/Scrum, Code Review, Technical Architecture, Software Design Patterns</span>
+        </div>
+      </section>
+
+      <!-- TWO COLUMN: Education + Projects/Awards -->
+      <div class="two-col">
+
+        <!-- EDUCATION -->
+        <section class="section" aria-label="Education">
+          <h2 class="section-title">Education</h2>
+
+          <div class="edu-item">
+            <div class="edu-left">
+              <div class="edu-institution">St. Thomas College, Thrissur</div>
+              <div class="edu-degree">Bachelor of Science – Computer Science</div>
+            </div>
+            <div class="edu-date">2009 – 2012</div>
+          </div>
+
+          <div class="edu-item">
+            <div class="edu-left">
+              <div class="edu-institution">Paramekkavu Devaswom College, Thrissur</div>
+              <div class="edu-degree">Higher Secondary – Biology / Science</div>
+            </div>
+            <div class="edu-date">2007 – 2009</div>
+          </div>
+        </section>
+
+        <!-- LANGUAGES -->
+        <section class="section" aria-label="Languages">
+          <h2 class="section-title">Languages</h2>
+          <div class="lang-row">
+            <span class="lang-item"><strong>English</strong> – Professional</span>
+            <span class="lang-item"><strong>Malayalam</strong> – Native</span>
+          </div>
+        </section>
+      </div>
+
+      <!-- PROJECTS -->
+      <section class="section" aria-label="Key Projects">
+        <h2 class="section-title">Key Projects</h2>
+
+        <!-- Project 1 -->
+        <div class="project-item">
+          <div class="exp-header" style="margin-bottom:3px;">
+            <div>
+              <div class="project-name">Bluelake – Airline PSS Data Warehouse &nbsp;<span
+                  style="font-weight:400;font-size:9pt;">(Client: ANA – All Nippon Airways)</span></div>
+              <div class="job-location" style="font-size:9pt;">IBS Software &nbsp;·&nbsp; Senior Technical Architect /
+                Data Engineer</div>
+            </div>
+            <div class="exp-date">Mar 2024 – Present</div>
+          </div>
+          <p class="project-desc" style="margin-bottom:5px;">
+            Leading the end-to-end data engineering for <strong>Bluelake</strong>, the enterprise-grade
+            <strong>Passenger Services System (PSS) Data Warehouse</strong> built for
+            <strong>ANA (All Nippon Airways)</strong> — one of the world's largest and most respected airlines.
+            This strategic platform centralises and transforms millions of PSS records daily, enabling
+            AI-driven insights and self-service analytics across ANA's operations.
+          </p>
+          <ul class="exp-bullets" style="margin-bottom:5px;">
+            <li>Architected scalable, cloud-native ETL pipelines using <strong>AWS Glue</strong> &amp;
+              <strong>Python</strong> to ingest, cleanse, and unify multi-source PSS data at scale.
+            </li>
+            <li>Designed and implemented <strong>dimensional (DM)</strong> and <strong>semantic (SDM)</strong> data
+              models in <strong>Amazon Redshift</strong> for self-service BI and executive dashboards.</li>
+            <li>Orchestrated event-driven data workflows with <strong>AWS Lambda</strong> and Step Functions for
+              real-time and batch processing.</li>
+            <li>Built and deployed <strong>AI/ML models on AWS SageMaker</strong> — including passenger behaviour
+              prediction, no-show forecasting, and route profitability analysis.</li>
+            <li>Integrated <strong>AWS Bedrock</strong> LLM features to enable natural language query interfaces for
+              non-technical business users.</li>
+            <li>Delivered interactive dashboards via <strong>Amazon QuickSight</strong> with role-based access control
+              for airline stakeholders.</li>
+            <li>Defined and enforced data governance, lineage, quality, and security standards across the entire
+              platform.</li>
+          </ul>
+          <div class="project-tech"><strong>Technologies:</strong> Python, AWS Glue, Amazon Redshift, AWS Lambda, AWS
+            Step Functions, AWS SageMaker, AWS Bedrock, Amazon QuickSight, AWS CloudFormation, Pandas, PySpark, ETL,
+            Dimensional Modelling</div>
+        </div>
+
+        <hr class="role-divider" />
+
+        <!-- Project 2 -->
+        <div class="project-item">
+          <div class="exp-header" style="margin-bottom:3px;">
+            <div>
+              <div class="project-name">Airline MRO &amp; Supply Chain – iFlight MRO</div>
+              <div class="job-location" style="font-size:9pt;">IBS Software &nbsp;·&nbsp; Technical Architect</div>
+            </div>
+            <div class="exp-date">Jun 2022 – Mar 2024</div>
+          </div>
+          <p class="project-desc" style="margin-bottom:3px;">
+            Contributed to <em>iFlight MRO</em>, a web-based airline Maintenance, Repair, and Overhaul (MRO) platform.
+            Focused on increasing aircraft utilisation and revenues through planning and execution of technical,
+            operational, and commercial aspects of maintenance and engineering. Led the development of key modules
+            including work-order management, component tracking, and compliance reporting.
+          </p>
+          <div class="project-tech"><strong>Technologies:</strong> .NET Core, Angular, Oracle Database, Amazon Web
+            Services (AWS), SQL</div>
+        </div>
+
+        <hr class="role-divider" />
+
+        <!-- Project 3 -->
+        <div class="project-item">
+          <div class="exp-header" style="margin-bottom:3px;">
+            <div>
+              <div class="project-name">Realtor Web Platforms</div>
+              <div class="job-location" style="font-size:9pt;">Datafloat Technologies India Pvt Ltd &nbsp;·&nbsp; Sr.
+                Software Development Engineer &amp; Database Engineer</div>
+            </div>
+            <div class="exp-date">Apr 2012 – Jun 2022</div>
+          </div>
+          <p class="project-desc" style="margin-bottom:3px;">
+            Designed and developed full-stack real estate web platforms over a decade. Built complex stored procedures
+            and functions in MS SQL Server, implemented server-side business logic in C# / ASP.NET MVC and Web API, and
+            crafted responsive UIs with HTML5, CSS3, JavaScript, jQuery, Angular, and TypeScript. Drove end-to-end
+            feature development from database design through to live deployment.
+          </p>
+          <div class="project-tech"><strong>Technologies:</strong> ASP.NET MVC, C#, Web API, Angular, TypeScript, MS SQL
+            Server, HTML5, CSS3, JavaScript, jQuery, .NET Core</div>
+        </div>
+
+      </section>
+
+      <!-- AWARDS -->
+      <section class="section" aria-label="Awards and Achievements">
+        <h2 class="section-title">Awards &amp; Achievements</h2>
+        <div class="cert-item">Department Champ Award – IBS Software</div>
+        <div class="cert-item">Winner – "Future of Aviation: Crew Wellness App" Internal Hackathon – IBS Software</div>
+      </section>
+
+    </main>
+  </div>
+
+</body>
+
+</html>
