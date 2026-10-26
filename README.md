@@ -13,13 +13,17 @@
 
 ## About me
 
-I'm Sachin, a **Senior Data Architect & Cloud Engineer** based in **Tokyo, Japan**, with **12+ years of experience** across data engineering, enterprise software, and technical leadership. I build cloud data platforms and use Generative AI to automate the engineering work around them.
+I'm Sachin, a **Senior Data Architect & Cloud Engineer** based in **Tokyo, Japan**, with **14+ years of experience** across data engineering, enterprise software, and technical leadership. I build cloud data platforms and use Generative AI to automate the engineering work around them.
 
-My data engineering experience includes an **airline PSS Data Warehouse**: AWS Glue and Redshift pipelines processing **5M+ records daily**, dimensional and semantic data models, self-healing workflows, and GenAI-assisted ETL development.
+My data engineering experience includes an **airline PSS Data Warehouse**: AWS Glue and Redshift pipelines, dimensional and semantic data models, self-healing workflows, and GenAI-assisted ETL development.
 
 Alongside my professional work, I build AI engineering tools, airline applications, and SaaS products. My background spans SQL Server database engineering, C#/.NET enterprise applications, TypeScript frontend frameworks, and AWS data architecture.
 
 **Open to:** Data Architect, Cloud Architect, and AI Engineering leadership roles. Based in Tokyo; visa sponsorship not required.
+
+## Architecture work sample
+
+[Reliable AWS Data Pipelines](portfolio/aws-data-pipeline-design.md) - an independent reference design covering ingestion, quality checks, safe replay, and recovery with Glue, Redshift, and Step Functions.
 
 ## Personal projects
 
@@ -31,7 +35,7 @@ An engineering workspace connecting issue trackers, Git repositories, and AI mod
 
 **Stack:** Python · FastAPI · React · PostgreSQL / pgvector · Docker · Ollama
 
-[Public product portal](https://aegis-ten-phi.vercel.app) · [Repository — private](https://github.com/sachin-bose-p/aegis)
+[Public product portal](https://aegis-ten-phi.vercel.app) · [Project brief](portfolio/aegis-project-brief.pdf) · [Repository — private](https://github.com/sachin-bose-p/aegis)
 
 ### 02 · NILSWA Enterprise Cloud — Multi-Portal Platform
 
@@ -71,7 +75,7 @@ A multi-tenant education platform for schools, colleges, and academies. Combines
 
 **Stack:** React · TypeScript · Python · FastAPI · PostgreSQL
 
-[Repository — private](https://github.com/sachin-bose-p/schoolhub)
+[Public case study](portfolio/schoolhub-case-study.md) · [Repository — private](https://github.com/sachin-bose-p/schoolhub)
 
 ### 07 · WealthPilot AI — Personal Wealth Workspace
 
