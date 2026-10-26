@@ -125,10 +125,12 @@ A local-first workspace for investments, assets, liabilities, income, expenses, 
 | **AWS & cloud** | Redshift, Glue, Lambda, Step Functions, SageMaker, Bedrock, S3, EC2, CloudFormation; Microsoft Azure |
 | **AI & automation** | Generative AI, LLM integration, predictive analytics, natural-language querying, local models, agent workflows |
 | **Databases** | MS SQL Server, PostgreSQL, Amazon Redshift, Oracle, MySQL, T-SQL, PL/SQL |
-| **Backend** | C#, .NET Core, ASP.NET MVC, Web API, Python/FastAPI, Node.js |
-| **Frontend** | Angular, React, Next.js, TypeScript, JavaScript, HTML, CSS, jQuery, Webpack |
-| **Analytics** | Amazon QuickSight, Power BI, business intelligence dashboards |
-| **Delivery** | Git, SVN, Bitbucket, GitHub Actions, Jenkins, Docker, CI/CD, shell scripting, Agile/Scrum, code review |
+| **Backend** | C#, .NET Framework, .NET Core, ASP.NET MVC, REST APIs, Web API, Python/FastAPI, Node.js |
+| **Frontend** | Angular, React, Next.js, TypeScript, JavaScript, HTML, CSS, jQuery, XML, Webpack |
+| **Analytics** | Amazon QuickSight, Power BI, Google Analytics, business intelligence dashboards |
+| **Delivery** | Git, SVN, Bitbucket, GitHub Actions, Jenkins, Docker, CI/CD, Windows Server, shell scripting, Agile/Scrum, code review |
+
+[All 28 LinkedIn-listed skills →](EXPERIENCE.md#linkedin-skills)
 
 ## Career
 

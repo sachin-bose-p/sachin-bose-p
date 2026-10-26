@@ -133,12 +133,25 @@ A separate LinkedIn project entry covering client web-development work: SQL stor
 | Feb 2023 | **Customer Champ** | IBS Software | Stability and performance improvements to the iFlight MRO Short Term Planning tool |
 | Sep 2022 | **Department Champ** | IBS Software | Research and implementation of an alternative to a deprecated SOAP Toolkit |
 
+## LinkedIn skills
+
+All **28 skills** listed on my LinkedIn profile, grouped for readability:
+
+| Area | Skills |
+| :--- | :--- |
+| Data architecture & engineering | Data Warehouse Architecture; Python (Programming Language); Amazon Redshift; AWS Glue; ETL/ELT |
+| Cloud & AI | AWS Lambda; AWS Step Functions; Generative AI; Microsoft Azure |
+| Databases & infrastructure | Microsoft SQL Server; Transact-SQL (T-SQL); MySQL; Windows Server |
+| Application development | TypeScript; JavaScript; React.js; Node.js; REST APIs; Front-End Development; .NET Framework; HTML; jQuery; XML; Cascading Style Sheets (CSS); C# |
+| Delivery & analytics | Git; Agile Methodologies; Google Analytics |
+
 ## Education
 
 | Dates | Qualification | Institution |
 | :--- | :--- | :--- |
 | 2009–2012 | Bachelor of Science / Bachelor's Degree, Computer Science | St. Thomas College, Thrissur |
 | 2007–2009 | Higher Secondary, Biology / Biological Sciences | Paramekkavu Devaswom College, Thrissur |
+| 1997–2007 | High School | St Aloysius Higher Secondary School |
 
 ## Languages
 
