@@ -5,7 +5,7 @@
 ## Profile
 
 **Sachin Bose Pulikkathara**  
-Senior Data Architect & Cloud Engineer · Senior Technical Architect at IBS Software  
+Senior Data Architect & Cloud Engineer · Senior Technical Architect<br>
 Tokyo, Japan · 12+ years of experience
 
 I specialize in modernizing legacy data infrastructure into AI-driven cloud platforms, building scalable ETL and data warehousing systems, and using Generative AI to automate the data engineering lifecycle. My experience spans database engineering, enterprise web applications, frontend framework development, cloud architecture, and technical leadership.
@@ -14,7 +14,7 @@ I specialize in modernizing legacy data infrastructure into AI-driven cloud plat
 
 ## Work experience
 
-### IBS Software — Jun 2022–Present
+### Enterprise data & software engineering · Jun 2022–Present
 
 #### Senior Technical Architect · Jul 2025–Present
 
@@ -85,7 +85,7 @@ These descriptions summarize projects listed on my LinkedIn profile. Employer an
 
 ### Bluelake — Airline PSS Data Warehouse
 
-**IBS Software · Client: ANA / All Nippon Airways · Mar 2024–Present**
+**Professional data engineering · Mar 2024–Present**
 
 End-to-end data engineering for an enterprise Passenger Services System data warehouse, processing **5M+ records daily**. The platform centralizes multi-source passenger data for analytics and self-service reporting.
 
@@ -100,7 +100,7 @@ End-to-end data engineering for an enterprise Passenger Services System data war
 
 ### Airline MRO & Supply Chain — iFlight MRO
 
-**IBS Software · Technical Architect · Jun 2022–Mar 2024**
+**Technical Architect · Jun 2022–Mar 2024**
 
 Contributed to a web-based Maintenance, Repair, and Overhaul platform covering technical, operational, and commercial maintenance workflows. Led work on modules for work-order management, component tracking, and compliance reporting. Recognition also covered improvements to the Short Term Planning graphical tool.
 
@@ -122,16 +122,16 @@ A separate LinkedIn project entry covering client web-development work: SQL stor
 
 ## Honors & awards
 
-| Date | Recognition | Organization | Contribution |
-| :--- | :--- | :--- | :--- |
-| May 2025 | **Department Champ** | IBS Software | Bitbucket adoption and customer-site CI/CD demonstrations for Bluelake |
-| Jan 2025 | **1st prize — Future of Aviation: Crew Wellness App** | ANA Systems / IBS Software Generative AI Hackathon | Airline Crew Fitness & Readiness Optimizer, an AI application concept integrating AWS face recognition with Google Fit and Apple Health |
-| Nov 2024 | **Customer Champ** | IBS Software Japan | Bluelake delivery, architectural flow improvements, stability, and customer confidence |
-| Nov 2024 | **Department Champ** | IBS Software | Bluelake delivery and architectural improvements |
-| Oct 2024 | **Excellence Award** | IBS Software Japan | Contributions and achievements in CDx–GDM |
-| Feb 2024 | **Customer Champ** | IBS Software | Technology anchor and lead architect contributions during the Bluelake RIT phase |
-| Feb 2023 | **Customer Champ** | IBS Software | Stability and performance improvements to the iFlight MRO Short Term Planning tool |
-| Sep 2022 | **Department Champ** | IBS Software | Research and implementation of an alternative to a deprecated SOAP Toolkit |
+| Date | Recognition | Contribution |
+| :--- | :--- | :--- |
+| May 2025 | **Department Champ** | Bitbucket adoption and customer-site CI/CD demonstrations for Bluelake |
+| Jan 2025 | **1st prize — Future of Aviation: Crew Wellness App** | Airline Crew Fitness & Readiness Optimizer, an AI application concept integrating AWS face recognition with Google Fit and Apple Health |
+| Nov 2024 | **Customer Champ** | Bluelake delivery, architectural flow improvements, stability, and customer confidence |
+| Nov 2024 | **Department Champ** | Bluelake delivery and architectural improvements |
+| Oct 2024 | **Excellence Award** | Contributions and achievements in CDx–GDM |
+| Feb 2024 | **Customer Champ** | Technology anchor and lead architect contributions during the Bluelake RIT phase |
+| Feb 2023 | **Customer Champ** | Stability and performance improvements to the iFlight MRO Short Term Planning tool |
+| Sep 2022 | **Department Champ** | Research and implementation of an alternative to a deprecated SOAP Toolkit |
 
 ## LinkedIn skills
 
@@ -174,6 +174,6 @@ All **28 skills** listed on my LinkedIn profile, grouped for readability:
 
 [LinkedIn](https://www.linkedin.com/in/sachin-bose-p/) · [sachin.bose.p@gmail.com](mailto:sachin.bose.p@gmail.com)
 
-The existing [HTML CV](sachin_bose_cv.html) is retained in this repository. Download and open it in a browser to view or print it as a PDF. The career timeline above follows LinkedIn's separate Datafloat roles; the CV groups some roles together.
+The [HTML CV](sachin_bose_cv.html) uses neutral labels for current professional experience. Download and open it in a browser to view or print it as a PDF. The career timeline above follows LinkedIn's separate Datafloat roles; the CV groups some roles together.
 
 <sub>Updated October 2026 from my LinkedIn profile and existing public CV.</sub>

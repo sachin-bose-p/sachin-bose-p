@@ -13,7 +13,7 @@
 
 I'm Sachin, a **Senior Data Architect & Cloud Engineer** based in **Tokyo, Japan**, with **12+ years of experience** across data engineering, enterprise software, and technical leadership. I build cloud data platforms and use Generative AI to automate the engineering work around them.
 
-At **IBS Software**, I work on **Bluelake, the airline PSS Data Warehouse for ANA (All Nippon Airways)**: AWS Glue and Redshift pipelines processing **5M+ records daily**, dimensional and semantic data models, self-healing workflows, and GenAI-assisted ETL development.
+My data engineering experience includes an **airline PSS Data Warehouse**: AWS Glue and Redshift pipelines processing **5M+ records daily**, dimensional and semantic data models, self-healing workflows, and GenAI-assisted ETL development.
 
 Alongside my professional work, I build AI engineering tools, airline applications, and SaaS products. My background spans SQL Server database engineering, C#/.NET enterprise applications, TypeScript frontend frameworks, and AWS data architecture.
 
@@ -23,9 +23,9 @@ Alongside my professional work, I build AI engineering tools, airline applicatio
 
 Enterprise work and substantial product platforms come first. The [complete project catalog](PROJECTS.md) includes all **42 repositories**, with smaller tools, experiments, and starter projects after the larger platforms. Private source links require repository access.
 
-### 01 · Bluelake — Airline PSS Data Warehouse
+### 01 · Airline PSS Data Warehouse
 
-**Professional work · IBS Software / ANA · Mar 2024–Present**
+**Professional data engineering · Mar 2024–Present**
 
 Enterprise data warehousing that turns passenger services data into trusted analytics. My work covers ETL architecture, dimensional and semantic models, event-driven orchestration, governance, predictive analytics, and self-service BI. Related work includes a Bedrock tool that generates ETL code from business requirements and self-healing workflows built with Lambda and Step Functions.
 
@@ -65,13 +65,13 @@ A multi-tenant airline operations platform. Its AeroStation module detects gate 
 
 [Repository — private](https://github.com/sachin-bose-p/fly-vectra)
 
-### 06 · NaviQ FlightLink — Airline Integration Hub
+### 06 · FlightLink — Airline Integration Hub
 
 An integration platform that validates incoming JSON/CSV flight data, maps it into iFlight XML, and handles delivery with retries and a dead-letter queue. Includes a tenant-scoped dashboard and mapping tools.
 
 **Stack:** TypeScript · Fastify · React · PostgreSQL · Redis · Docker
 
-[Repository — private](https://github.com/sachin-bose-p/naviq-flightlink)
+[Repository — private](https://github.com/sachin-bose-p/flightlink)
 
 ### 07 · IATA TTBS — Ticket Tax Box Service Project
 
@@ -108,7 +108,7 @@ A local-first workspace for investments, assets, liabilities, income, expenses, 
 | :--- | :--- | :--- |
 | **NILSWA Chat Deck** | Local-first chat workspace with cloud/local model routing and streaming responses | [Private](https://github.com/sachin-bose-p/nilswa-chat-deck) |
 | **FluxHub Stream Engine** | Message ingestion and orchestration project for SQS/SNS, RabbitMQ, and Kafka | [Private](https://github.com/sachin-bose-p/fluxhub-stream-engine) |
-| **IBS Coding Buddy** | AI coding-assistant project linking tickets, chat, repositories, and pull requests | [Private](https://github.com/sachin-bose-p/ibs-coding-buddy) |
+| **Coding Buddy** | AI coding-assistant project linking tickets, chat, repositories, and pull requests | Private professional project |
 | **iCrew & iCrewService** | Airline crew dashboard and companion backend | [Dashboard — private](https://github.com/sachin-bose-p/iCrew) · [Service — private](https://github.com/sachin-bose-p/iCrewService) |
 | **Desktop Stock Alert** | Local Indian stock-market monitor and desktop alerts | [Private](https://github.com/sachin-bose-p/desktop-stock-alert) |
 | **AWS Glue Job Demo** | Glue job sample with a deployment template | [Private](https://github.com/sachin-bose-p/aws-gluejob-demo) |
@@ -134,20 +134,20 @@ A local-first workspace for investments, assets, liabilities, income, expenses, 
 
 ## Career
 
-| Dates | Role | Organization |
-| :--- | :--- | :--- |
-| Jul 2025–Present | **Senior Technical Architect** · Tokyo | IBS Software |
-| Mar 2024–Jun 2025 | **Technical Architect** · Tokyo | IBS Software |
-| Jun 2022–Mar 2024 | **Lead Solutions Architect** · Kochi / Remote | IBS Software |
-| Aug 2019–Jun 2022 | **Senior Software Development Engineer** · Frontend framework engineering | Datafloat Technologies India Pvt Ltd |
-| Apr 2016–Aug 2019 | **Senior Software Development Engineer** · Full-stack web platforms | Datafloat Technologies India Pvt Ltd |
-| Apr 2012–Mar 2016 | **Database Software Engineer** | Datafloat Technologies India Pvt Ltd |
+| Dates | Role |
+| :--- | :--- |
+| Jul 2025–Present | **Senior Technical Architect** · Tokyo |
+| Mar 2024–Jun 2025 | **Technical Architect** · Tokyo |
+| Jun 2022–Mar 2024 | **Lead Solutions Architect** · Kochi / Remote |
+| Aug 2019–Jun 2022 | **Senior Software Development Engineer** · Frontend framework engineering |
+| Apr 2016–Aug 2019 | **Senior Software Development Engineer** · Full-stack web platforms |
+| Apr 2012–Mar 2016 | **Database Software Engineer** |
 
 [Responsibilities, professional projects, and all eight awards →](EXPERIENCE.md)
 
 ## Recognition, education & languages
 
-- **1st prize, Generative AI Hackathon — ANA Systems & IBS Software, Jan 2025:** Airline Crew Fitness & Readiness Optimizer.
+- **1st prize, Generative AI Hackathon, Jan 2025:** Airline Crew Fitness & Readiness Optimizer.
 - **Eight LinkedIn-listed honors:** Department Champ, Customer Champ, Excellence Award, and the hackathon win, spanning Sep 2022–May 2025.
 - **B.Sc. Computer Science**, St. Thomas College, Thrissur, 2009–2012.
 - **Higher Secondary, Biology / Science**, Paramekkavu Devaswom College, Thrissur, 2007–2009.
