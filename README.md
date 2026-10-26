@@ -1,4 +1,4 @@
-<img src="assets/profile-banner.svg" alt="Sachin Bose Pulikkathara — Senior Data Architect and Cloud Engineer, Tokyo" width="100%" />
+<img src="assets/profile-banner.png" alt="Sachin Bose Pulikkathara — Senior Data Architect and Cloud Engineer, Tokyo" width="100%" />
 
 <p align="center">
   <a href="https://www.linkedin.com/in/sachin-bose-p/">LinkedIn</a> ·
