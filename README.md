@@ -65,13 +65,13 @@ An integration platform that validates incoming JSON/CSV flight data, maps it in
 
 [Repository — private](https://github.com/sachin-bose-p/flightlink)
 
-### 06 · IATA TTBS — Ticket Tax Box Service Project
+### 06 · SchoolHub — Education Management Platform
 
-A ticket tax, fee, and charge rules project with multi-agent extraction, a visual rule builder, itinerary simulation, partner feed distribution, and an audit trail.
+A multi-tenant education platform for schools, colleges, and academies. Combines a role-based CRM, student and staff management, attendance, exams, grades, fees, and a white-label website builder.
 
-**Stack:** React · TypeScript · FastAPI · LangGraph · PostgreSQL / pgvector
+**Stack:** React · TypeScript · Python · FastAPI · PostgreSQL
 
-[Repository — private](https://github.com/sachin-bose-p/iata-ttbs)
+[Repository — private](https://github.com/sachin-bose-p/schoolhub)
 
 ### 07 · WealthPilot AI — Personal Wealth Workspace
 
@@ -87,7 +87,7 @@ A local-first workspace for investments, assets, liabilities, income, expenses, 
 | :--- | :--- | :--- |
 | **AegisCore / O.R.I.O.N.** | Local-first AI, DevOps, and Agile workspace with a companion agent, knowledge bases, and desktop packaging | [Private](https://github.com/sachin-bose-p/aegis-core) |
 | **Airline Crew CRM & ERP** | Crew management, rostering, duties, and leave with React, FastAPI, and PostgreSQL | [Private](https://github.com/sachin-bose-p/crew) |
-| **SchoolHub** | Multi-tenant education platform with CRM, academic operations, and a website builder | [Private](https://github.com/sachin-bose-p/schoolhub) |
+| **IATA TTBS** | Ticket tax, fee, and charge rules project with multi-agent extraction, visual rule building, itinerary simulation, and feed distribution | [Private](https://github.com/sachin-bose-p/iata-ttbs) |
 | **NILSWA Insurance Hub** | Insurance-agent CRM, policy tracking, lead pipelines, and branded websites | [Private](https://github.com/sachin-bose-p/nilswa-insurance-hub) |
 | **NILSWA Realty** | Real estate CRM and customer portal for properties, leads, and tour bookings | [Private](https://github.com/sachin-bose-p/nilswa-realty) |
 | **NILSWA SeniorCare** | Senior-care CRM with resident, staff, and shift management | [Private](https://github.com/sachin-bose-p/nilswa-seniorcare-enterprise) |
