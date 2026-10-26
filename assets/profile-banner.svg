@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="300" viewBox="0 0 1200 300" role="img" aria-labelledby="title desc">
+  <title id="title">Sachin Bose Pulikkathara — Data, cloud and AI</title>
+  <desc id="desc">Senior Data Architect and Cloud Engineer based in Tokyo. Building data platforms, intelligent automation and enterprise software.</desc>
+  <defs>
+    <linearGradient id="bg" x2="1" y2="1"><stop stop-color="#09182b"/><stop offset="1" stop-color="#14394b"/></linearGradient>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#9cced7" stroke-opacity=".06"/></pattern>
+  </defs>
+  <rect width="1200" height="300" rx="16" fill="url(#bg)"/>
+  <rect width="1200" height="300" rx="16" fill="url(#grid)"/>
+  <rect x="48" y="49" width="42" height="4" rx="2" fill="#65dcc5"/>
+  <text x="48" y="87" fill="#8ce7d6" font-family="Arial, Helvetica, sans-serif" font-size="15" letter-spacing="3">DATA · CLOUD · AI</text>
+  <text x="45" y="145" fill="#ffffff" font-family="Arial, Helvetica, sans-serif" font-size="44" font-weight="700">Sachin Bose Pulikkathara</text>
+  <text x="48" y="187" fill="#c4d8e6" font-family="Arial, Helvetica, sans-serif" font-size="22">Senior Data Architect &amp; Cloud Engineer</text>
+  <text x="48" y="247" fill="#a5c1cf" font-family="Arial, Helvetica, sans-serif" font-size="16">TOKYO, JAPAN   /   AWS · PYTHON · GENERATIVE AI</text>
+  <g transform="translate(936 65)" stroke="#65dcc5" stroke-width="2" fill="#123447">
+    <path d="M0 85H56V20H130M56 85H150V150H205M56 85V155H0" fill="none" opacity=".6"/>
+    <circle cy="85" r="11"/><circle cx="56" cy="85" r="15"/><circle cx="130" cy="20" r="11"/><circle cx="150" cy="85" r="11"/><circle cx="205" cy="150" r="11"/><circle cy="155" r="11"/>
+  </g>
+</svg>
