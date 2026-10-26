@@ -6,7 +6,7 @@
 
 **Sachin Bose Pulikkathara**  
 Senior Data Architect & Cloud Engineer · Senior Technical Architect<br>
-Tokyo, Japan · 12+ years of experience
+Tokyo, Japan · 14+ years of experience
 
 I specialize in modernizing legacy data infrastructure into AI-driven cloud platforms, building scalable ETL and data warehousing systems, and using Generative AI to automate the data engineering lifecycle. My experience spans database engineering, enterprise web applications, frontend framework development, cloud architecture, and technical leadership.
 
