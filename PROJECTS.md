@@ -2,13 +2,17 @@
 
 [← GitHub profile](README.md) · [Professional experience](EXPERIENCE.md)
 
-A complete inventory of **42 repositories**, reviewed in October 2026. Larger platforms and enterprise applications come first; focused tools, support packages, and smaller experiments follow. Ordering reflects documented scope and portfolio relevance, rather than repository size alone.
+A complete inventory of **42 repositories**, reviewed in October 2026. Personal platforms come first, followed by smaller tools and experiments. Professional projects from LinkedIn and private work-support repositories are grouped separately below. Ordering reflects documented scope and portfolio relevance, rather than repository size alone.
 
 **Access:** 2 public repositories and 40 private repositories. Professional projects use neutral labels; company-identifying repository names and links are omitted. Private links require authorized repository access. Descriptions summarize documented purpose; a listing does not imply that a project is deployed, complete, or open source. Concepts, starters, and distribution packages are identified explicitly.
 
-The four professional projects on my LinkedIn profile—**Bluelake**, **iFlight MRO**, **Realtor Web Platforms**, and **Realtor Websites**—are described in [Professional experience](EXPERIENCE.md#professional-projects). Those project entries are separate from this repository inventory.
+[Personal projects](#personal-projects) · [Professional projects](#professional-projects)
 
-## Major platforms & enterprise applications
+The four LinkedIn professional project entries are separate from the 42-repository inventory.
+
+## Personal projects
+
+### Major platforms & applications
 
 | Project | Scope | Primary repository language | Access |
 | :--- | :--- | :--- | :--- |
@@ -26,13 +30,12 @@ The four professional projects on my LinkedIn profile—**Bluelake**, **iFlight 
 | **[NILSWA SeniorCare](https://github.com/sachin-bose-p/nilswa-seniorcare-enterprise)**<br><sub>nilswa-seniorcare-enterprise</sub> | Senior-care platform with CRM functionality for residents, staff, and shift management. | TypeScript | Private |
 | **[WealthPilot AI](https://github.com/sachin-bose-p/WealthPilot-AI)**<br><sub>WealthPilot-AI</sub> | Local-first wealth workspace for investments, cash flow, liabilities, analytics, forecasting, and alerts; JSON persistence. | Python | Private |
 
-## Focused applications, tools & demos
+### Focused applications, tools & demos
 
 | Project | Scope | Primary repository language | Access |
 | :--- | :--- | :--- | :--- |
 | **[NILSWA Chat Deck](https://github.com/sachin-bose-p/nilswa-chat-deck)**<br><sub>nilswa-chat-deck</sub> | Local-first multi-model AI chat workspace with cloud/local routing, streaming responses, and project organization. | TypeScript | Private |
 | **[FluxHub Stream Engine](https://github.com/sachin-bose-p/fluxhub-stream-engine)**<br><sub>fluxhub-stream-engine</sub> | Message ingestion and orchestration project spanning SQS/SNS, RabbitMQ, Kafka, and local-LLM schema mapping. | JavaScript | Private |
-| **Coding Buddy** | AI coding-assistant project combining issue tracking, chat, repository changes, and pull requests. | TypeScript | Private |
 | **[iCrew](https://github.com/sachin-bose-p/iCrew)**<br><sub>iCrew</sub> | Angular airline crew dashboard project. Related to the companion iCrewService repository. | CSS | Private |
 | **[iCrewService](https://github.com/sachin-bose-p/iCrewService)**<br><sub>iCrewService</sub> | Python server-side services for the iCrew dashboard. | Python | Private |
 | **[Desktop Stock Alert](https://github.com/sachin-bose-p/desktop-stock-alert)**<br><sub>desktop-stock-alert</sub> | Local Indian stock-market monitor and desktop notification tool. | Python | Private |
@@ -45,18 +48,8 @@ The four professional projects on my LinkedIn profile—**Bluelake**, **iFlight 
 | **[Web Dashboard Experiments](https://github.com/sachin-bose-p/my-test)**<br><sub>my-test</sub> | Public HTML experiments including dashboard, client-role, and contact pages. | HTML | Public |
 | **[Microservices Sample](https://github.com/sachin-bose-p/microservices-sample)**<br><sub>microservices-sample</sub> | Java microservices learning/reference project. The README credits mudigal-technologies; included as a reference sample, without claiming original authorship. | Java | Private |
 
-## Professional support & automation repositories
 
-| Project | Scope | Primary repository language | Access |
-| :--- | :--- | :--- | :--- |
-| **Bluelake SDM Dashboard** | Private professional dashboard repository; detailed functionality is not documented in its README. | Java | Private |
-| **Bluelake Support** | Private professional support repository with a minimal README. | Python | Private |
-| **GDM Automation** | Private automation assets; no project README is available. | — | Private |
-| **Script Utilities** | Private script repository with a minimal README. | JavaScript | Private |
-| **[GWPF Notification Center](https://github.com/sachin-bose-p/ana-service-now)**<br><sub>ana-service-now</sub> | Private notification-center project, as named in its README. | JavaScript | Private |
-| **Airline Portal Project** | Private Python portal repository; no project README is available. | Python | Private |
-
-## Distribution packages, concepts & supporting sites
+### Distribution packages, concepts & supporting sites
 
 | Project | Scope | Primary repository language | Access |
 | :--- | :--- | :--- | :--- |
@@ -66,9 +59,35 @@ The four professional projects on my LinkedIn profile—**Bluelake**, **iFlight 
 | **[NILSWA Garage CRM — concept](https://github.com/sachin-bose-p/nilswa-garage-crm)**<br><sub>nilswa-garage-crm</sub> | README-only concept for a mechanic-shop CRM covering estimates, reminders, and inventory. | — | Private |
 | **[Crew Collaboration — concept](https://github.com/sachin-bose-p/ana-crew)**<br><sub>ana-crew</sub> | Crew collaboration concept described in the repository; implementation status is not established by the README. | — | Private |
 | **[My Coding Loop — starter](https://github.com/sachin-bose-p/my-coding-loop)**<br><sub>my-coding-loop</sub> | README/license-only starter repository; implementation details are not documented. | — | Private |
-| **Manager Dashboard — starter** | README-only dashboard starter repository. | — | Private |
 | **[Resume Website](https://github.com/sachin-bose-p/AthiraResume)**<br><sub>AthiraResume</sub> | Supporting resume website project; no project README is available. | CSS | Private |
 | **[GitHub Profile & CV](https://github.com/sachin-bose-p/sachin-bose-p)**<br><sub>sachin-bose-p</sub> | This public profile repository, including the project catalog, professional background, banner, and HTML CV. | HTML | Public |
+
+
+## Professional projects
+
+Projects documented on LinkedIn, listed separately from personal products. Employer names are omitted.
+
+| Project | My contribution | Technologies |
+| :--- | :--- | :--- |
+| **Airline PSS Data Warehouse** | Cloud ETL, dimensional and semantic modeling, governance, predictive analytics, and self-service BI | Python, PySpark, Glue, Redshift, Lambda, Step Functions, SageMaker, Bedrock, QuickSight |
+| **Airline MRO & Supply Chain** | Technical architecture, work orders, component tracking, compliance reporting, and planning-tool improvements | .NET Core, Angular, Oracle, AWS, SQL |
+| **Realtor Web Platforms** | Full-stack real estate applications, database logic, APIs, and responsive interfaces | C#, ASP.NET MVC, SQL Server, Angular, TypeScript |
+| **Realtor Websites** | Client web development, SQL and C# business logic, and website improvements | SQL Server, C#, HTML, CSS, JavaScript |
+
+[Detailed professional project history →](EXPERIENCE.md#professional-projects)
+
+### Professional support & automation repositories
+
+| Project | Scope | Primary repository language | Access |
+| :--- | :--- | :--- | :--- |
+| **Bluelake SDM Dashboard** | Private professional dashboard repository; detailed functionality is not documented in its README. | Java | Private |
+| **Bluelake Support** | Private professional support repository with a minimal README. | Python | Private |
+| **GDM Automation** | Private automation assets; no project README is available. | — | Private |
+| **Script Utilities** | Private script repository with a minimal README. | JavaScript | Private |
+| **[GWPF Notification Center](https://github.com/sachin-bose-p/ana-service-now)**<br><sub>ana-service-now</sub> | Private notification-center project, as named in its README. | JavaScript | Private |
+| **Airline Portal Project** | Private Python portal repository; no project README is available. | Python | Private |
+| **Coding Buddy** | AI coding-assistant project combining issue tracking, chat, repository changes, and pull requests. | TypeScript | Private |
+| **Manager Dashboard — starter** | README-only dashboard starter repository. | — | Private |
 
 ## Public product links
 

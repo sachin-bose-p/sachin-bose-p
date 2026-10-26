@@ -4,6 +4,8 @@
   <a href="https://www.linkedin.com/in/sachin-bose-p/">LinkedIn</a> ·
   <a href="mailto:sachin.bose.p@gmail.com">Email</a> ·
   <a href="https://aegis-ten-phi.vercel.app">Aegis</a> ·
+  <a href="#personal-projects">Personal projects</a> ·
+  <a href="#professional-projects">Professional projects</a> ·
   <a href="PROJECTS.md">All projects</a> ·
   <a href="EXPERIENCE.md">Full experience</a> ·
   <a href="sachin_bose_cv.html">CV source</a>
@@ -19,21 +21,11 @@ Alongside my professional work, I build AI engineering tools, airline applicatio
 
 **Open to:** Data Architect, Cloud Architect, and AI Engineering leadership roles. Based in Tokyo; visa sponsorship not required.
 
-## Major projects
+## Personal projects
 
-Enterprise work and substantial product platforms come first. The [complete project catalog](PROJECTS.md) includes all **42 repositories**, with smaller tools, experiments, and starter projects after the larger platforms. Private source links require repository access.
+My own product platforms and engineering projects, with larger projects first and smaller tools afterward. Private repository links require access. The [complete catalog](PROJECTS.md) covers all **42 repositories**.
 
-### 01 · Airline PSS Data Warehouse
-
-**Professional data engineering · Mar 2024–Present**
-
-Enterprise data warehousing that turns passenger services data into trusted analytics. My work covers ETL architecture, dimensional and semantic models, event-driven orchestration, governance, predictive analytics, and self-service BI. Related work includes a Bedrock tool that generates ETL code from business requirements and self-healing workflows built with Lambda and Step Functions.
-
-**Stack:** Python · PySpark · AWS Glue · Amazon Redshift · Lambda · Step Functions · SageMaker · Bedrock · QuickSight · Power BI
-
-[Professional project details](EXPERIENCE.md#professional-projects)
-
-### 02 · Aegis — AI Engineering Workspace
+### 01 · Aegis — AI Engineering Workspace
 
 An engineering workspace connecting issue trackers, Git repositories, and AI models. Coding, testing, and management assistants take a ticket through planning, implementation, tests, security checks, and review, with human approval. Supports cloud providers and local models through Ollama.
 
@@ -41,7 +33,7 @@ An engineering workspace connecting issue trackers, Git repositories, and AI mod
 
 [Public product portal](https://aegis-ten-phi.vercel.app) · [Repository — private](https://github.com/sachin-bose-p/aegis)
 
-### 03 · NILSWA Enterprise Cloud — Multi-Portal Platform
+### 02 · NILSWA Enterprise Cloud — Multi-Portal Platform
 
 A platform with a public customer portal, an internal enterprise CRM, onboarding workflows, and a FastAPI backend. The wider NILSWA portfolio includes products for insurance, real estate, education, and senior care.
 
@@ -49,7 +41,7 @@ A platform with a public customer portal, an internal enterprise CRM, onboarding
 
 [Website](https://nilswa.vercel.app) · [Repository — private](https://github.com/sachin-bose-p/nilswa)
 
-### 04 · NilSwa Trade AI — Research & Paper Trading Workspace
+### 03 · NilSwa Trade AI — Research & Paper Trading Workspace
 
 An Indian-market research workspace combining a dashboard, Python worker, deterministic research agents, PostgreSQL, and a read-only ChatGPT MCP endpoint. The documented defaults use paper trading with real-money execution disabled; broker and external acceptance checks remain separate gates.
 
@@ -57,7 +49,7 @@ An Indian-market research workspace combining a dashboard, Python worker, determ
 
 [Repository — private](https://github.com/sachin-bose-p/nilswa-trade-ai)
 
-### 05 · FlyVectra — Airline Operations Platform
+### 04 · FlyVectra — Airline Operations Platform
 
 A multi-tenant airline operations platform. Its AeroStation module detects gate and stand conflicts and proposes reallocations for a duty manager to approve. Tenant isolation and role-based access support the operational workspace.
 
@@ -65,7 +57,7 @@ A multi-tenant airline operations platform. Its AeroStation module detects gate 
 
 [Repository — private](https://github.com/sachin-bose-p/fly-vectra)
 
-### 06 · FlightLink — Airline Integration Hub
+### 05 · FlightLink — Airline Integration Hub
 
 An integration platform that validates incoming JSON/CSV flight data, maps it into iFlight XML, and handles delivery with retries and a dead-letter queue. Includes a tenant-scoped dashboard and mapping tools.
 
@@ -73,7 +65,7 @@ An integration platform that validates incoming JSON/CSV flight data, maps it in
 
 [Repository — private](https://github.com/sachin-bose-p/flightlink)
 
-### 07 · IATA TTBS — Ticket Tax Box Service Project
+### 06 · IATA TTBS — Ticket Tax Box Service Project
 
 A ticket tax, fee, and charge rules project with multi-agent extraction, a visual rule builder, itinerary simulation, partner feed distribution, and an audit trail.
 
@@ -81,7 +73,7 @@ A ticket tax, fee, and charge rules project with multi-agent extraction, a visua
 
 [Repository — private](https://github.com/sachin-bose-p/iata-ttbs)
 
-### 08 · WealthPilot AI — Personal Wealth Workspace
+### 07 · WealthPilot AI — Personal Wealth Workspace
 
 A local-first workspace for investments, assets, liabilities, income, expenses, and transactions. Includes portfolio analytics, cash-flow dashboards, forecasting, and configurable alerts, with JSON persistence.
 
@@ -89,7 +81,7 @@ A local-first workspace for investments, assets, liabilities, income, expenses, 
 
 [Repository — private](https://github.com/sachin-bose-p/WealthPilot-AI)
 
-### More platforms and products
+### More personal platforms and products
 
 | Project | Focus | Source |
 | :--- | :--- | :--- |
@@ -99,23 +91,63 @@ A local-first workspace for investments, assets, liabilities, income, expenses, 
 | **NILSWA Insurance Hub** | Insurance-agent CRM, policy tracking, lead pipelines, and branded websites | [Private](https://github.com/sachin-bose-p/nilswa-insurance-hub) |
 | **NILSWA Realty** | Real estate CRM and customer portal for properties, leads, and tour bookings | [Private](https://github.com/sachin-bose-p/nilswa-realty) |
 | **NILSWA SeniorCare** | Senior-care CRM with resident, staff, and shift management | [Private](https://github.com/sachin-bose-p/nilswa-seniorcare-enterprise) |
-| **iFlight MRO & Supply Chain** | Professional contributions to maintenance, work orders, component tracking, and compliance reporting | [Experience](EXPERIENCE.md#professional-projects) |
-| **Realtor Web Platforms / Realtor Websites** | Professional database, backend, and frontend engineering for real estate applications | [Experience](EXPERIENCE.md#professional-projects) |
 
-## Smaller tools, demos & experiments
+### Smaller personal tools, demos & experiments
 
 | Project | Focus | Source |
 | :--- | :--- | :--- |
 | **NILSWA Chat Deck** | Local-first chat workspace with cloud/local model routing and streaming responses | [Private](https://github.com/sachin-bose-p/nilswa-chat-deck) |
 | **FluxHub Stream Engine** | Message ingestion and orchestration project for SQS/SNS, RabbitMQ, and Kafka | [Private](https://github.com/sachin-bose-p/fluxhub-stream-engine) |
-| **Coding Buddy** | AI coding-assistant project linking tickets, chat, repositories, and pull requests | Private professional project |
-| **iCrew & iCrewService** | Airline crew dashboard and companion backend | [Dashboard — private](https://github.com/sachin-bose-p/iCrew) · [Service — private](https://github.com/sachin-bose-p/iCrewService) |
 | **Desktop Stock Alert** | Local Indian stock-market monitor and desktop alerts | [Private](https://github.com/sachin-bose-p/desktop-stock-alert) |
 | **AWS Glue Job Demo** | Glue job sample with a deployment template | [Private](https://github.com/sachin-bose-p/aws-gluejob-demo) |
 | **Local LLM Setup** | Python scripts for trying local language models | [Private](https://github.com/sachin-bose-p/nilswa-local-llm-setup) |
 | **Personal Portfolio** | Responsive HTML/CSS/JavaScript portfolio with theme switching | [Private](https://github.com/sachin-bose-p/personal-portfolio) |
 
 **[Browse all 42 repositories, including concepts, support packages, and starter projects →](PROJECTS.md)**
+
+
+## Professional projects
+
+Company and client work from my LinkedIn project history. Employer names are omitted from this profile; these summaries describe my contributions.
+
+### 01 · Airline PSS Data Warehouse
+
+**Data architecture & engineering · Mar 2024–Present**
+
+End-to-end engineering for an airline Passenger Services System data warehouse processing **5M+ records daily**. My work includes cloud ETL pipelines, dimensional and semantic models, event-driven orchestration, governance, predictive analytics, and self-service BI. Related work includes GenAI-assisted ETL code generation and self-healing data workflows.
+
+**Stack:** Python · PySpark · AWS Glue · Amazon Redshift · Lambda · Step Functions · SageMaker · Bedrock · QuickSight · Power BI
+
+### 02 · Airline MRO & Supply Chain
+
+**Technical architecture · Jun 2022–Mar 2024**
+
+Contributed to an airline Maintenance, Repair, and Overhaul platform, including work-order management, component tracking, compliance reporting, and improvements to a Short Term Planning graphical tool.
+
+**Stack:** .NET Core · Angular · Oracle Database · AWS · SQL
+
+### 03 · Realtor Web Platforms
+
+**Full-stack & database engineering · Apr 2012–Jun 2022**
+
+Developed real estate web applications from database design through deployment: SQL Server stored procedures and functions, C#/ASP.NET MVC and Web API business logic, and responsive web interfaces.
+
+**Stack:** C# · ASP.NET MVC · Web API · .NET Core · MS SQL Server · Angular · TypeScript · HTML · CSS · JavaScript · jQuery
+
+### 04 · Realtor Websites
+
+A separate project in my LinkedIn history covering client website development, SQL business logic, C# application changes, web design, and coding improvements based on client requirements.
+
+**Stack:** MS SQL Server · C# · HTML · CSS · JavaScript
+
+### Related professional tools
+
+| Project | Focus |
+| :--- | :--- |
+| **Coding Buddy** | AI coding-assistant project connecting tickets, chat, repository changes, and pull requests |
+| **Data dashboards & automation** | Private professional support tools; company-identifying repository links are omitted |
+
+[Full professional project history →](EXPERIENCE.md#professional-projects) · [Complete repository catalog →](PROJECTS.md)
 
 ## Technology
 
