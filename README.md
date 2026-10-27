@@ -3,7 +3,7 @@
 <p align="center">
   <a href="https://www.linkedin.com/in/sachin-bose-p/">LinkedIn</a> ·
   <a href="mailto:sachin.bose.p@gmail.com">Email</a> ·
-  <a href="https://aegis-ten-phi.vercel.app">Aegis</a> ·
+  <a href="https://aegis-help.nilswa.com">Aegis</a> ·
   <a href="#personal-projects">Personal projects</a> ·
   <a href="#professional-projects">Professional projects</a> ·
   <a href="PROJECTS.md">All projects</a> ·
@@ -35,7 +35,7 @@ An engineering workspace connecting issue trackers, Git repositories, and AI mod
 
 **Stack:** Python · FastAPI · React · PostgreSQL / pgvector · Docker · Ollama
 
-[Public product portal](https://aegis-ten-phi.vercel.app) · [Project brief](portfolio/aegis-project-brief.pdf) · [Repository — private](https://github.com/sachin-bose-p/aegis)
+[Public product portal](https://aegis-help.nilswa.com) · [Project brief](portfolio/aegis-project-brief.pdf) · [Repository — private](https://github.com/sachin-bose-p/aegis)
 
 ### 02 · NILSWA Enterprise Cloud — Multi-Portal Platform
 

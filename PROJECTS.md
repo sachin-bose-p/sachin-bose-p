@@ -93,7 +93,7 @@ Projects documented on LinkedIn, listed separately from personal products. Emplo
 
 These product websites are separate from source-code access.
 
-- [Aegis product portal and documentation](https://aegis-ten-phi.vercel.app)
+- [Aegis product portal and documentation](https://aegis-help.nilswa.com)
 - [NILSWA Enterprise Cloud](https://nilswa.vercel.app)
 
 <sub>Sources: repository metadata, available README files, and targeted root file inventories. Primary language is GitHub metadata and does not describe the entire technology stack.</sub>
